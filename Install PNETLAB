@@ -1,0 +1,13 @@
+Les Etapes pour installe PNETLAB
+Vous devez telecharger pnetlab depuis le site officiel : https://pnetlab.com/pages/download
+Importer sur VMware 
+Demarrer 
+Installer et cloner ishare2 pour les IOS avec les etapes suivants :
+  https://github.com/ishare2-org/ishare2-cli
+	git clone https://github.com/ishare2-org/ishare2-cli.git 
+	cp ishare2-cli/ishare2 /usr/sbin/ishare2
+ Make the file executable using
+chmod +x /usr/sbin/ishare2
+Run ishare2 to start using it
+	ishare2
+Note: Run the command as root or using sudo
